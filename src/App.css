@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.light{
+  background-color: #ccc;
+  color: #f50;
+}
+.dark{
+  background-color: rgb(10, 9, 9);
+  color: gold;
+}
+.footer, .header{
+  margin-bottom: 15px;
+  padding: 20px;
+}
+.main{
+  background-color: red;
+  flex-grow: 1;
+}
+#root{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
